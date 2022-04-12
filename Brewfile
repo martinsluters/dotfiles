@@ -1,0 +1,67 @@
+# Taps
+tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
+tap 'homebrew/bundle'
+tap 'nicoverbruggen/homebrew-cask'
+
+# Binaries
+brew 'bash' # Latest Bash version
+brew 'gh'
+brew 'git'
+brew 'httpie'
+brew 'mackup'
+brew 'mas' # Mac App Store manager
+brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'svn'
+brew 'wget'
+
+# Development
+brew 'php'
+brew 'php@8.0'
+brew 'php@7.4'
+brew 'composer'
+brew 'node'
+brew 'nvm'
+brew 'wp-cli'
+
+# Apps
+cask '1password'
+cask 'docker'
+cask 'firefox'
+cask 'github'
+cask 'google-chrome'
+cask 'imageoptim'
+cask 'insomnia'
+# cask 'pastebot'
+cask 'slack'
+cask 'sequel-pro'
+cask 'keka'
+cask 'transmit'
+cask 'nordvpn'
+cask 'visual-studio-code'
+cask 'sublime-text'
+cask 'whatsapp'
+cask 'signal'
+cask 'zoom'
+cask 'microsoft-teams'
+cask 'tuple'
+cask 'skype'
+cask 'authy'
+cask 'iterm2'
+cask 'sourcetree'
+cask 'sublime-merge'
+cask 'kaleidoscope'
+cask 'screaming-frog-seo-spider'
+cask 'keybase'
+cask 'cleanshot'
+cask 'dropbox'
+cask 'postman'
+cask 'arduino'
+cask 'vlc'
+cask 'poedit'
+cask 'the-unarchiver'
+cask 'stellarium'
+cask 'mysides'
+
+# Quicklook
+cask 'quicklook-json'
