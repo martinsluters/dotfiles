@@ -49,6 +49,9 @@ $DOTFILES/clone.sh
 # Sidebar
 $DOTFILES/sidebar.sh
 
+# NPM global packages
+$DOTFILES/npm_global_packages.sh
+
 # Symlink the Mackup config file to the home directory
 ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
 
