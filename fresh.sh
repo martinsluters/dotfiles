@@ -40,11 +40,13 @@ brew bundle --file $DOTFILES/Brewfile
 #$HOME/.composer/vendor/bin/global-ray install
 
 # Create a Sites directory
-mkdir $HOME/wp-local-docker-sites
 mkdir $HOME/projects
 
 # Clone Github repositories
 $DOTFILES/clone.sh
+
+# Git configuration
+$DOTFILES/git-config.sh
 
 # Sidebar
 $DOTFILES/sidebar.sh
