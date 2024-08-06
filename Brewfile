@@ -21,6 +21,7 @@ brew 'composer'
 brew 'node'
 brew 'nvm'
 brew 'wp-cli'
+brew 'php-code-sniffer'
 cask 'local'
 
 # Apps
@@ -58,6 +59,7 @@ cask 'vlc'
 cask 'poedit'
 cask 'the-unarchiver'
 cask 'mysides'
+cask 'google-drive'
 
 # Quicklook
 cask 'quicklook-json'
