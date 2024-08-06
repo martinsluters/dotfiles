@@ -21,7 +21,6 @@ brew 'composer'
 brew 'node'
 brew 'nvm'
 brew 'wp-cli'
-brew 'php-code-sniffer'
 cask 'local'
 
 # Apps
